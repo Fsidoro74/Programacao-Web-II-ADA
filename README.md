@@ -30,3 +30,34 @@ HTTP (Hypertext Transfer Protocol) é o principal protocolo de comunicação na 
 ```http
 GET /index.html HTTP/1.1
 Host: [www.exemplo.com](https://www.exemplo.com)
+## Estudo de Caso
+
+### Exploração de uma API Pública
+
+**Acesse:** [DummyJSON API](https://dummyjson.com/)
+
+A melhor forma de entender é testando. Para investigar endpoints `GET` (buscar dados), você pode usar seu próprio navegador.
+
+**Teste você mesmo (clique ou copie e cole no navegador):**
+
+* **Para ver todos os produtos:**
+    [`https://dummyjson.com/products`](https://dummyjson.com/products)
+
+* **Para ver o produto com ID 1:**
+    [`https://dummyjson.com/products/1`](https://dummyjson.com/products/1)
+
+* **Para ver todos os usuários:**
+    [`https://dummyjson.com/users`](https://dummyjson.com/users)
+
+* **Para ver o usuário com ID 1:**
+    [`https://dummyjson.com/users/1`](https://dummyjson.com/users/1)
+
+**Usando o Postman:**
+
+Para fazer outros métodos (como `POST` para criar, ou `DELETE` para apagar), você não pode usar o navegador. É aí que entram ferramentas como o **Postman**. Recomendo você baixar e explorar, é fundamental para um dev back-end.
+
+### Tarefas propostas
+
+* Realize solicitações de diferentes tipos.
+* Inspecione as respostas e seus códigos de status.
+* Identifique possíveis melhorias na API.
